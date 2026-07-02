@@ -82,6 +82,3 @@ python codigo/train_improved.py             # Bi-LSTM+Atenção (rode até concl
 python codigo/make_figures.py               # figuras
 ```
 
-## 5. Artigo
-`artigo/main.tex` — modelo IEEE em português, pronto para o Overleaf (veja
-`artigo/README.md`). Todas as tabelas e figuras usam os números reais acima.
