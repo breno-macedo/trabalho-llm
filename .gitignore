@@ -1,0 +1,31 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Artigo LaTeX (não incluído neste repositório)
+artigo/
+
+# Materiais de estudo / apresentação (pessoais, não versionar)
+Guia_Defesa_Oral.md
+Roteiro_Apresentacao.md
+Apresentacao.pptx
+
+# Build LaTeX (caso o artigo volte para cá)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Dados brutos (baixar do Kaggle)
+*.csv
+data.npz
+*.pkl
+*.npy

@@ -1,0 +1,317 @@
+{
+  "0": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.7,
+    "justificativa": "Fluxo praticamente vazio, confianca baixa (0.73) com Normal 0.27; atributos dentro/abaixo do normal."
+  },
+  "1": {
+    "veredito": "ATAQUE",
+    "confianca": 0.95,
+    "justificativa": "Carga backward e Average Packet Size muito acima do normal: assinatura de flood DoS."
+  },
+  "2": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999; requisicao vazia em porta 80 com janela TCP anomala: padrao de sonda/exploracao."
+  },
+  "3": {
+    "veredito": "ATAQUE",
+    "confianca": 0.95,
+    "justificativa": "Carga backward >> normal: flood DoS."
+  },
+  "4": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala (mesmo padrao do alerta 2)."
+  },
+  "5": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Web Attacks 0.996 com payload consistente na porta 80."
+  },
+  "6": {
+    "veredito": "ATAQUE",
+    "confianca": 0.9,
+    "justificativa": "Pacotes minusculos (~2 bytes) tipicos de varredura de portas (PS 0.984)."
+  },
+  "7": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.65,
+    "justificativa": "Fluxo minusculo, DoS 0.739 com Normal 0.251; tudo dentro do normal."
+  },
+  "8": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "DDoS 0.998 (confianca praticamente maxima)."
+  },
+  "9": {
+    "veredito": "ATAQUE",
+    "confianca": 0.7,
+    "justificativa": "Bots 0.905; assinatura de beacon pequeno e repetitivo."
+  },
+  "10": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.55,
+    "justificativa": "Bots 0.841 com Normal 0.159; fluxo pequeno dentro do normal, confianca moderada."
+  },
+  "11": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Bots 0.999 com payload."
+  },
+  "12": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.982 com janela TCP anomala."
+  },
+  "13": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.65,
+    "justificativa": "DoS 0.651 com Normal 0.339; fluxo minusculo dentro do normal."
+  },
+  "14": {
+    "veredito": "ATAQUE",
+    "confianca": 0.8,
+    "justificativa": "Bots 0.997 (alta confianca)."
+  },
+  "15": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Bots 0.999 com payload."
+  },
+  "16": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.7,
+    "justificativa": "DoS 0.62 com Normal 0.373; fluxo minusculo."
+  },
+  "17": {
+    "veredito": "ATAQUE",
+    "confianca": 0.9,
+    "justificativa": "Varredura de portas (pacotes de ~2 bytes), PS 0.975."
+  },
+  "18": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Bots 0.945."
+  },
+  "19": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "DoS 0.936 (confianca alta, Normal apenas 0.061)."
+  },
+  "20": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Port Scanning 1.0, fluxo vazio com min_seg_size anomalo: sonda."
+  },
+  "21": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "DoS 0.956; multiplas conexoes vazias na porta 443 compativeis com flood de conexao."
+  },
+  "22": {
+    "veredito": "ATAQUE",
+    "confianca": 0.9,
+    "justificativa": "Brute Force na porta 22 (SSH) com payload grande: forca bruta."
+  },
+  "23": {
+    "veredito": "ATAQUE",
+    "confianca": 0.72,
+    "justificativa": "Bots 0.917."
+  },
+  "24": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.6,
+    "justificativa": "DoS 0.595 com Normal 0.272; fluxo vazio."
+  },
+  "25": {
+    "veredito": "ATAQUE",
+    "confianca": 0.8,
+    "justificativa": "Bots 0.997."
+  },
+  "26": {
+    "veredito": "ATAQUE",
+    "confianca": 0.95,
+    "justificativa": "Carga backward >> normal: flood DoS."
+  },
+  "27": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "28": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Bots 0.943."
+  },
+  "29": {
+    "veredito": "ATAQUE",
+    "confianca": 0.96,
+    "justificativa": "Carga backward >> normal: flood DDoS."
+  },
+  "30": {
+    "veredito": "ATAQUE",
+    "confianca": 0.9,
+    "justificativa": "Varredura (pacotes ~2 bytes), PS 0.981."
+  },
+  "31": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "DDoS 1.0."
+  },
+  "32": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.6,
+    "justificativa": "DoS 0.396: confianca muito baixa e dispersa entre classes; tudo dentro do normal."
+  },
+  "33": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.55,
+    "justificativa": "DDoS 0.802, mas fluxo minusculo sem assinatura de flood e Normal 0.188."
+  },
+  "34": {
+    "veredito": "ATAQUE",
+    "confianca": 0.96,
+    "justificativa": "Carga backward >> normal: flood DDoS."
+  },
+  "35": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Brute Force na porta 21 (FTP): forca bruta."
+  },
+  "36": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Brute Force na porta 21 (FTP)."
+  },
+  "37": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Port Scanning 1.0, sonda vazia com min_seg anomalo."
+  },
+  "38": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "39": {
+    "veredito": "ATAQUE",
+    "confianca": 0.88,
+    "justificativa": "Varredura (~2 bytes)."
+  },
+  "40": {
+    "veredito": "ATAQUE",
+    "confianca": 0.88,
+    "justificativa": "Varredura (~2 bytes)."
+  },
+  "41": {
+    "veredito": "ATAQUE",
+    "confianca": 0.72,
+    "justificativa": "Bots 0.918."
+  },
+  "42": {
+    "veredito": "ATAQUE",
+    "confianca": 0.88,
+    "justificativa": "Varredura (~2 bytes)."
+  },
+  "43": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Port Scanning 1.0, sonda vazia."
+  },
+  "44": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Bots 0.945."
+  },
+  "45": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.55,
+    "justificativa": "Brute Force 0.503 (confianca baixa), fluxo vazio na porta 22, Normal 0.197."
+  },
+  "46": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "47": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Web Attacks 0.915 com carga acima do normal (fwd/bwd grandes)."
+  },
+  "48": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "49": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Bots 0.999 com payload."
+  },
+  "50": {
+    "veredito": "ATAQUE",
+    "confianca": 0.95,
+    "justificativa": "Carga backward >> normal: flood DDoS."
+  },
+  "51": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "52": {
+    "veredito": "ATAQUE",
+    "confianca": 0.9,
+    "justificativa": "Brute Force na porta 22 (SSH) com payload grande."
+  },
+  "53": {
+    "veredito": "ATAQUE",
+    "confianca": 0.88,
+    "justificativa": "Varredura (~2 bytes)."
+  },
+  "54": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Brute Force na porta 21 (FTP)."
+  },
+  "55": {
+    "veredito": "FALSO_POSITIVO",
+    "confianca": 0.55,
+    "justificativa": "Web Attacks 0.526 vs Normal 0.469; upload grande em 443 com tamanhos plausiveis de trafego legitimo."
+  },
+  "56": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "57": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.996 com janela TCP anomala."
+  },
+  "58": {
+    "veredito": "ATAQUE",
+    "confianca": 0.75,
+    "justificativa": "Web Attacks 0.999 com janela TCP anomala."
+  },
+  "59": {
+    "veredito": "ATAQUE",
+    "confianca": 0.65,
+    "justificativa": "Bots 0.894."
+  },
+  "60": {
+    "veredito": "ATAQUE",
+    "confianca": 0.88,
+    "justificativa": "Varredura (~2 bytes)."
+  },
+  "61": {
+    "veredito": "ATAQUE",
+    "confianca": 0.85,
+    "justificativa": "Port Scanning 1.0, sonda vazia."
+  },
+  "62": {
+    "veredito": "ATAQUE",
+    "confianca": 0.7,
+    "justificativa": "Bots 0.908."
+  }
+}

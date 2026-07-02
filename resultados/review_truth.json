@@ -1,0 +1,317 @@
+{
+  "0": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "1": {
+    "true": "DoS",
+    "pred": "DoS",
+    "is_fp": false
+  },
+  "2": {
+    "true": "Web Attacks",
+    "pred": "Web Attacks",
+    "is_fp": false
+  },
+  "3": {
+    "true": "DoS",
+    "pred": "DoS",
+    "is_fp": false
+  },
+  "4": {
+    "true": "Web Attacks",
+    "pred": "Web Attacks",
+    "is_fp": false
+  },
+  "5": {
+    "true": "Web Attacks",
+    "pred": "Web Attacks",
+    "is_fp": false
+  },
+  "6": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "7": {
+    "true": "DoS",
+    "pred": "DoS",
+    "is_fp": false
+  },
+  "8": {
+    "true": "DDoS",
+    "pred": "DDoS",
+    "is_fp": false
+  },
+  "9": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "10": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "11": {
+    "true": "Bots",
+    "pred": "Bots",
+    "is_fp": false
+  },
+  "12": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "13": {
+    "true": "Normal Traffic",
+    "pred": "DoS",
+    "is_fp": true
+  },
+  "14": {
+    "true": "Bots",
+    "pred": "Bots",
+    "is_fp": false
+  },
+  "15": {
+    "true": "Bots",
+    "pred": "Bots",
+    "is_fp": false
+  },
+  "16": {
+    "true": "Normal Traffic",
+    "pred": "DoS",
+    "is_fp": true
+  },
+  "17": {
+    "true": "Port Scanning",
+    "pred": "Port Scanning",
+    "is_fp": false
+  },
+  "18": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "19": {
+    "true": "Normal Traffic",
+    "pred": "DoS",
+    "is_fp": true
+  },
+  "20": {
+    "true": "Port Scanning",
+    "pred": "Port Scanning",
+    "is_fp": false
+  },
+  "21": {
+    "true": "Normal Traffic",
+    "pred": "DoS",
+    "is_fp": true
+  },
+  "22": {
+    "true": "Brute Force",
+    "pred": "Brute Force",
+    "is_fp": false
+  },
+  "23": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "24": {
+    "true": "Normal Traffic",
+    "pred": "DoS",
+    "is_fp": true
+  },
+  "25": {
+    "true": "Bots",
+    "pred": "Bots",
+    "is_fp": false
+  },
+  "26": {
+    "true": "DoS",
+    "pred": "DoS",
+    "is_fp": false
+  },
+  "27": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "28": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "29": {
+    "true": "DDoS",
+    "pred": "DDoS",
+    "is_fp": false
+  },
+  "30": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "31": {
+    "true": "DDoS",
+    "pred": "DDoS",
+    "is_fp": false
+  },
+  "32": {
+    "true": "Normal Traffic",
+    "pred": "DoS",
+    "is_fp": true
+  },
+  "33": {
+    "true": "Normal Traffic",
+    "pred": "DDoS",
+    "is_fp": true
+  },
+  "34": {
+    "true": "DDoS",
+    "pred": "DDoS",
+    "is_fp": false
+  },
+  "35": {
+    "true": "Brute Force",
+    "pred": "Brute Force",
+    "is_fp": false
+  },
+  "36": {
+    "true": "Brute Force",
+    "pred": "Brute Force",
+    "is_fp": false
+  },
+  "37": {
+    "true": "Port Scanning",
+    "pred": "Port Scanning",
+    "is_fp": false
+  },
+  "38": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "39": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "40": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "41": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "42": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "43": {
+    "true": "Port Scanning",
+    "pred": "Port Scanning",
+    "is_fp": false
+  },
+  "44": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "45": {
+    "true": "Normal Traffic",
+    "pred": "Brute Force",
+    "is_fp": true
+  },
+  "46": {
+    "true": "Web Attacks",
+    "pred": "Web Attacks",
+    "is_fp": false
+  },
+  "47": {
+    "true": "DoS",
+    "pred": "Web Attacks",
+    "is_fp": false
+  },
+  "48": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "49": {
+    "true": "Bots",
+    "pred": "Bots",
+    "is_fp": false
+  },
+  "50": {
+    "true": "DDoS",
+    "pred": "DDoS",
+    "is_fp": false
+  },
+  "51": {
+    "true": "Web Attacks",
+    "pred": "Web Attacks",
+    "is_fp": false
+  },
+  "52": {
+    "true": "Brute Force",
+    "pred": "Brute Force",
+    "is_fp": false
+  },
+  "53": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "54": {
+    "true": "Brute Force",
+    "pred": "Brute Force",
+    "is_fp": false
+  },
+  "55": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "56": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "57": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "58": {
+    "true": "Normal Traffic",
+    "pred": "Web Attacks",
+    "is_fp": true
+  },
+  "59": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  },
+  "60": {
+    "true": "Normal Traffic",
+    "pred": "Port Scanning",
+    "is_fp": true
+  },
+  "61": {
+    "true": "Port Scanning",
+    "pred": "Port Scanning",
+    "is_fp": false
+  },
+  "62": {
+    "true": "Normal Traffic",
+    "pred": "Bots",
+    "is_fp": true
+  }
+}

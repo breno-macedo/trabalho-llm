@@ -1,0 +1,38 @@
+{
+  "conjunto_revisado": {
+    "total": 63,
+    "falsos_positivos_reais": 33,
+    "ataques_reais": 30
+  },
+  "decisao_llm": {
+    "FP_eliminados_corretamente": 9,
+    "FP_nao_detectados": 24,
+    "ataques_mantidos_corretamente": 29,
+    "ataques_revertidos_por_engano(FN)": 1
+  },
+  "metricas_2a_camada": {
+    "precisao_em_detectar_FP": 0.9,
+    "revocacao_em_detectar_FP": 0.2727,
+    "especificidade_preserva_ataques": 0.9667
+  },
+  "efeito_global_FP": {
+    "FP_LSTM_antes": 33,
+    "FP_apos_LLM": 24,
+    "reducao_FP_pct": 27.3,
+    "ataques_perdidos": 1
+  },
+  "exemplos_FP_eliminados": [
+    0,
+    10,
+    13,
+    16,
+    24,
+    32,
+    33,
+    45,
+    55
+  ],
+  "exemplos_FN_introduzidos": [
+    7
+  ]
+}

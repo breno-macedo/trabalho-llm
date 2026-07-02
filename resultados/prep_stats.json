@@ -1,0 +1,91 @@
+{
+  "registros_originais": 2830743,
+  "atributos_originais": 78,
+  "registros_apos_padronizacao": 2830696,
+  "duplicados_removidos": 331200,
+  "linhas_com_nan_antes": 2867,
+  "distribuicao_original_classes": {
+    "DDoS": 128027,
+    "Normal Traffic": 2273097,
+    "Port Scanning": 158930,
+    "Bots": 1966,
+    "Web Attacks": 2180,
+    "Brute Force": 13835,
+    "DoS": 252661
+  },
+  "registros_limpos_aprox": 519527,
+  "atributos_removidos_varzero": [
+    "Bwd PSH Flags",
+    "Bwd URG Flags",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate"
+  ],
+  "atributos_duplicados_removidos": [
+    "SYN Flag Count",
+    "CWE Flag Count",
+    "ECE Flag Count",
+    "Avg Fwd Segment Size",
+    "Avg Bwd Segment Size",
+    "Fwd Header Length.1",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets"
+  ],
+  "atributos_removidos_correlacao": [
+    [
+      "Total Length of Bwd Packets",
+      0.9999998214651159
+    ],
+    [
+      "Bwd Header Length",
+      0.9999986152313137
+    ],
+    [
+      "Total Fwd Packets",
+      0.9997615921842822
+    ],
+    [
+      "Flow IAT Max",
+      0.9997319836484907
+    ],
+    [
+      "Flow Duration",
+      0.9996075803808608
+    ],
+    [
+      "Packet Length Mean",
+      0.9992560458334748
+    ],
+    [
+      "Fwd IAT Max",
+      0.9983041698248629
+    ],
+    [
+      "Fwd Header Length",
+      0.9970158819346499
+    ],
+    [
+      "Total Backward Packets",
+      0.9968036108191166
+    ]
+  ],
+  "n_atributos_finais": 52,
+  "nan_apos": 0,
+  "infinitos_apos": 0,
+  "distribuicao_balanceada": {
+    "DDoS": 3000,
+    "Brute Force": 3000,
+    "Normal Traffic": 3000,
+    "Port Scanning": 3000,
+    "DoS": 3000,
+    "Web Attacks": 2000,
+    "Bots": 1800
+  },
+  "base_final": 18800,
+  "n_treino": 15040,
+  "n_teste": 3760
+}

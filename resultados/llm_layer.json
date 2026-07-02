@@ -1,0 +1,36 @@
+{
+  "prompt_template": "Voce e um analista de seguranca (SOC). A primeira camada (modelo de deteccao) gerou o alerta abaixo.\nAvalie se o evento e um ATAQUE REAL ou um FALSO POSITIVO, justificando com base nos atributos do fluxo\ne nos atributos mais influentes segundo o SHAP. Responda em JSON: {{veredito, confianca, justificativa}}.\n\nALERTA:\n{evento}\n\nAtributos mais influentes (SHAP global): {shap}\n",
+  "top_features_shap": [
+    "Destination Port",
+    "Total Length of Fwd Packets",
+    "Fwd Packet Length Max",
+    "Init_Win_bytes_backward",
+    "Fwd Packet Length Mean",
+    "Average Packet Size",
+    "min_seg_size_forward",
+    "Bwd Packet Length Min"
+  ],
+  "exemplos_falsos_positivos": [
+    {
+      "indice": 55,
+      "classe_real": "Normal Traffic",
+      "classe_prevista": "Port Scanning",
+      "texto_evento": "Fluxo de rede com atributos principais: Destination Port=211.00, Total Length of Fwd Packets=4.00, Fwd Packet Length Max=2.00, Init_Win_bytes_backward=-0.00, Fwd Packet Length Mean=2.00, Average Packet Size=4.50, min_seg_size_forward=24.00, Bwd Packet Length Min=6.00. O classificador (LSTM) atribuiu a classe 'Port Scanning' com confianca 0.96. Distribuicao de probabilidade: Port Scanning=0.96, Normal Traffic=0.04, DoS=0.00.",
+      "prompt_llm": "Voce e um analista de seguranca (SOC). A primeira camada (modelo de deteccao) gerou o alerta abaixo.\nAvalie se o evento e um ATAQUE REAL ou um FALSO POSITIVO, justificando com base nos atributos do fluxo\ne nos atributos mais influentes segundo o SHAP. Responda em JSON: {veredito, confianca, justificativa}.\n\nALERTA:\nFluxo de rede com atributos principais: Destination Port=211.00, Total Length of Fwd Packets=4.00, Fwd Packet Length Max=2.00, Init_Win_bytes_backward=-0.00, Fwd Packet Length Mean=2.00, Average Packet Size=4.50, min_seg_size_forward=24.00, Bwd Packet Length Min=6.00. O classificador (LSTM) atribuiu a classe 'Port Scanning' com confianca 0.96. Distribuicao de probabilidade: Port Scanning=0.96, Normal Traffic=0.04, DoS=0.00.\n\nAtributos mais influentes (SHAP global): Destination Port, Total Length of Fwd Packets, Fwd Packet Length Max, Init_Win_bytes_backward, Fwd Packet Length Mean, Average Packet Size, min_seg_size_forward, Bwd Packet Length Min\n"
+    },
+    {
+      "indice": 141,
+      "classe_real": "Normal Traffic",
+      "classe_prevista": "Bots",
+      "texto_evento": "Fluxo de rede com atributos principais: Destination Port=59356.00, Total Length of Fwd Packets=6.00, Fwd Packet Length Max=6.00, Init_Win_bytes_backward=320.00, Fwd Packet Length Mean=6.00, Average Packet Size=9.00, min_seg_size_forward=20.00, Bwd Packet Length Min=6.00. O classificador (LSTM) atribuiu a classe 'Bots' com confianca 0.84. Distribuicao de probabilidade: Bots=0.84, Normal Traffic=0.16, Port Scanning=0.00.",
+      "prompt_llm": "Voce e um analista de seguranca (SOC). A primeira camada (modelo de deteccao) gerou o alerta abaixo.\nAvalie se o evento e um ATAQUE REAL ou um FALSO POSITIVO, justificando com base nos atributos do fluxo\ne nos atributos mais influentes segundo o SHAP. Responda em JSON: {veredito, confianca, justificativa}.\n\nALERTA:\nFluxo de rede com atributos principais: Destination Port=59356.00, Total Length of Fwd Packets=6.00, Fwd Packet Length Max=6.00, Init_Win_bytes_backward=320.00, Fwd Packet Length Mean=6.00, Average Packet Size=9.00, min_seg_size_forward=20.00, Bwd Packet Length Min=6.00. O classificador (LSTM) atribuiu a classe 'Bots' com confianca 0.84. Distribuicao de probabilidade: Bots=0.84, Normal Traffic=0.16, Port Scanning=0.00.\n\nAtributos mais influentes (SHAP global): Destination Port, Total Length of Fwd Packets, Fwd Packet Length Max, Init_Win_bytes_backward, Fwd Packet Length Mean, Average Packet Size, min_seg_size_forward, Bwd Packet Length Min\n"
+    },
+    {
+      "indice": 153,
+      "classe_real": "Normal Traffic",
+      "classe_prevista": "DoS",
+      "texto_evento": "Fluxo de rede com atributos principais: Destination Port=443.00, Total Length of Fwd Packets=275.00, Fwd Packet Length Max=224.00, Init_Win_bytes_backward=110.00, Fwd Packet Length Mean=45.83, Average Packet Size=41.00, min_seg_size_forward=32.00, Bwd Packet Length Min=-0.00. O classificador (LSTM) atribuiu a classe 'DoS' com confianca 0.40. Distribuicao de probabilidade: DoS=0.40, Web Attacks=0.31, Brute Force=0.16.",
+      "prompt_llm": "Voce e um analista de seguranca (SOC). A primeira camada (modelo de deteccao) gerou o alerta abaixo.\nAvalie se o evento e um ATAQUE REAL ou um FALSO POSITIVO, justificando com base nos atributos do fluxo\ne nos atributos mais influentes segundo o SHAP. Responda em JSON: {veredito, confianca, justificativa}.\n\nALERTA:\nFluxo de rede com atributos principais: Destination Port=443.00, Total Length of Fwd Packets=275.00, Fwd Packet Length Max=224.00, Init_Win_bytes_backward=110.00, Fwd Packet Length Mean=45.83, Average Packet Size=41.00, min_seg_size_forward=32.00, Bwd Packet Length Min=-0.00. O classificador (LSTM) atribuiu a classe 'DoS' com confianca 0.40. Distribuicao de probabilidade: DoS=0.40, Web Attacks=0.31, Brute Force=0.16.\n\nAtributos mais influentes (SHAP global): Destination Port, Total Length of Fwd Packets, Fwd Packet Length Max, Init_Win_bytes_backward, Fwd Packet Length Mean, Average Packet Size, min_seg_size_forward, Bwd Packet Length Min\n"
+    }
+  ]
+}

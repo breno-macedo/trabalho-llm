@@ -1,0 +1,5864 @@
+{
+  "top_features": [
+    "Destination Port",
+    "Total Length of Fwd Packets",
+    "Fwd Packet Length Max",
+    "Init_Win_bytes_backward",
+    "Fwd Packet Length Mean",
+    "Average Packet Size",
+    "min_seg_size_forward",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std"
+  ],
+  "referencia_normal": {
+    "Destination Port": [
+      80.00010018877856,
+      52.99997802188318,
+      51790.90162549933
+    ],
+    "Total Length of Fwd Packets": [
+      70.00000002837635,
+      9.43091743010882e-06,
+      1257.2000217805742
+    ],
+    "Fwd Packet Length Max": [
+      40.99999445064452,
+      -5.868566375966111e-06,
+      559.3999949860395
+    ],
+    "Init_Win_bytes_backward": [
+      -0.9998445460364564,
+      -0.9998445460364564,
+      979.9999831061773
+    ],
+    "Fwd Packet Length Mean": [
+      37.99999972217783,
+      2.844899121612343e-06,
+      101.88333532373616
+    ],
+    "Average Packet Size": [
+      76.5000001241331,
+      2.999985128873732,
+      335.4872682212172
+    ],
+    "min_seg_size_forward": [
+      20.00000021030865,
+      20.00000021030865,
+      32.00000002241759
+    ],
+    "Bwd Packet Length Min": [
+      5.999999887681238,
+      -1.855167504061228e-07,
+      137.99999858930568
+    ],
+    "Bwd Packet Length Mean": [
+      77.74998688627488,
+      -1.821901332732523e-05,
+      453.39998999711617
+    ],
+    "Bwd Packet Length Std": [
+      -1.698206790479162e-05,
+      -1.698206790479162e-05,
+      637.2209447891719
+    ]
+  },
+  "eventos": [
+    {
+      "id": 0,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.73,
+      "distribuicao_prob": {
+        "Bots": 0.73,
+        "Normal Traffic": 0.269,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 12750.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 255.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DoS": 1.0,
+        "Normal Traffic": 0.0,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 367.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 343.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 235.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 52.43,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 997.33,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 2319.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 4415.27,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DoS": 1.0,
+        "Normal Traffic": 0.0,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 616.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 308.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 235.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 88.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 939.31,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 1932.5,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 2181.01,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.996,
+      "distribuicao_prob": {
+        "Web Attacks": 0.996,
+        "Normal Traffic": 0.002,
+        "DoS": 0.002
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 383.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 383.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 235.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 95.75,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 94.12,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 92.5,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 185.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.984,
+      "distribuicao_prob": {
+        "Port Scanning": 0.984,
+        "Normal Traffic": 0.016,
+        "Bots": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 8021.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.739,
+      "distribuicao_prob": {
+        "DoS": 0.739,
+        "Normal Traffic": 0.251,
+        "DDoS": 0.006
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 18.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -1.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 3.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "classe_prevista_camada1": "DDoS",
+      "confianca_camada1": 0.998,
+      "distribuicao_prob": {
+        "DDoS": 0.998,
+        "Normal Traffic": 0.002,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 30.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -1.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 7.2,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.905,
+      "distribuicao_prob": {
+        "Bots": 0.905,
+        "Normal Traffic": 0.095,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 50522.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 256.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.841,
+      "distribuicao_prob": {
+        "Bots": 0.841,
+        "Normal Traffic": 0.159,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 59356.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 320.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Bots": 0.999,
+        "Normal Traffic": 0.001,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 8080.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 207.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 195.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 237.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 51.75,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 48.71,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 44.67,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 72.23,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.982,
+      "distribuicao_prob": {
+        "Web Attacks": 0.982,
+        "Normal Traffic": 0.015,
+        "DoS": 0.002
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 11584.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.651,
+      "distribuicao_prob": {
+        "DoS": 0.651,
+        "Normal Traffic": 0.339,
+        "Port Scanning": 0.004
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 443.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 18.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 1120.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 6.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.997,
+      "distribuicao_prob": {
+        "Bots": 0.997,
+        "Normal Traffic": 0.002,
+        "Port Scanning": 0.001
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 8080.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 28.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Bots": 0.999,
+        "Normal Traffic": 0.001,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 8080.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 207.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 195.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 237.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 51.75,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 48.71,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 44.67,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 72.23,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.62,
+      "distribuicao_prob": {
+        "DoS": 0.62,
+        "Normal Traffic": 0.373,
+        "DDoS": 0.003
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 1205.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -1.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 3.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.975,
+      "distribuicao_prob": {
+        "Port Scanning": 0.975,
+        "Normal Traffic": 0.025,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 1947.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 2.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 5.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.945,
+      "distribuicao_prob": {
+        "Bots": 0.945,
+        "Normal Traffic": 0.055,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 20288.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 257.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.936,
+      "distribuicao_prob": {
+        "DoS": 0.936,
+        "Normal Traffic": 0.061,
+        "Port Scanning": 0.001
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 443.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 18.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 135.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.8,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "Port Scanning": 1.0,
+        "Normal Traffic": 0.0,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 1244.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 40.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.956,
+      "distribuicao_prob": {
+        "DoS": 0.956,
+        "Normal Traffic": 0.041,
+        "Web Attacks": 0.001
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 443.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 123.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "classe_prevista_camada1": "Brute Force",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "Brute Force": 1.0,
+        "Normal Traffic": 0.0,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 22.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 2008.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 640.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 247.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 95.62,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 89.68,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 85.78,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 220.24,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.917,
+      "distribuicao_prob": {
+        "Bots": 0.917,
+        "Normal Traffic": 0.083,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 51799.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 256.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.595,
+      "distribuicao_prob": {
+        "DoS": 0.595,
+        "Normal Traffic": 0.272,
+        "Web Attacks": 0.076
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -1.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.997,
+      "distribuicao_prob": {
+        "Bots": 0.997,
+        "Normal Traffic": 0.002,
+        "Port Scanning": 0.001
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 8080.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 28.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DoS": 1.0,
+        "Normal Traffic": 0.0,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 1143.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 373.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 235.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 114.3,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 749.65,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 1656.43,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 2120.73,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.943,
+      "distribuicao_prob": {
+        "Bots": 0.943,
+        "Normal Traffic": 0.056,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 51529.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 254.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "classe_prevista_camada1": "DDoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DDoS": 1.0,
+        "DoS": 0.0,
+        "Normal Traffic": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 56.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 20.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 229.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 7.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 897.62,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 2321.4,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 3327.77,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.981,
+      "distribuicao_prob": {
+        "Port Scanning": 0.981,
+        "Normal Traffic": 0.019,
+        "Bots": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 17988.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "classe_prevista_camada1": "DDoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DDoS": 1.0,
+        "Normal Traffic": 0.0,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 24.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -1.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 7.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "classe_prevista_camada1": "DoS",
+      "confianca_camada1": 0.396,
+      "distribuicao_prob": {
+        "DoS": 0.396,
+        "Web Attacks": 0.307,
+        "Brute Force": 0.163
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 443.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 275.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 224.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 110.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 45.83,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 41.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 35.2,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 62.83,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "classe_prevista_camada1": "DDoS",
+      "confianca_camada1": 0.802,
+      "distribuicao_prob": {
+        "DDoS": 0.802,
+        "Normal Traffic": 0.188,
+        "DoS": 0.006
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 443.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 12.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -1.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "classe_prevista_camada1": "DDoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DDoS": 1.0,
+        "Port Scanning": 0.0,
+        "Normal Traffic": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 26.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 20.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 229.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 8.67,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 1453.37,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 2320.2,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 3668.9,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "classe_prevista_camada1": "Brute Force",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Brute Force": 0.999,
+        "Normal Traffic": 0.001,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 21.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 109.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 26.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 227.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 12.11,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 12.37,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 12.53,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 14.55,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "classe_prevista_camada1": "Brute Force",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Brute Force": 0.999,
+        "Normal Traffic": 0.0,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 21.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 100.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 20.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 227.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 11.11,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 12.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 12.53,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 14.55,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "Port Scanning": 1.0,
+        "Normal Traffic": 0.0,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 5900.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 40.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.963,
+      "distribuicao_prob": {
+        "Port Scanning": 0.963,
+        "Normal Traffic": 0.037,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 211.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.972,
+      "distribuicao_prob": {
+        "Port Scanning": 0.972,
+        "Normal Traffic": 0.028,
+        "Bots": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 40193.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.918,
+      "distribuicao_prob": {
+        "Bots": 0.918,
+        "Normal Traffic": 0.082,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 51276.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 256.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.969,
+      "distribuicao_prob": {
+        "Port Scanning": 0.969,
+        "Normal Traffic": 0.031,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 1524.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "Port Scanning": 1.0,
+        "Normal Traffic": 0.0,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 19315.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 40.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.945,
+      "distribuicao_prob": {
+        "Bots": 0.945,
+        "Normal Traffic": 0.055,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 51366.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 258.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "classe_prevista_camada1": "Brute Force",
+      "confianca_camada1": 0.503,
+      "distribuicao_prob": {
+        "Brute Force": 0.503,
+        "Web Attacks": 0.288,
+        "Normal Traffic": 0.197
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 22.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 243.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.915,
+      "distribuicao_prob": {
+        "Web Attacks": 0.915,
+        "DoS": 0.078,
+        "Normal Traffic": 0.007
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 1425.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 475.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 235.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 203.57,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 412.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 705.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 1254.72,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 26847.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Bots": 0.999,
+        "Normal Traffic": 0.001,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 8080.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 210.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 198.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 237.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 52.5,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 49.14,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 44.67,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 72.23,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "classe_prevista_camada1": "DDoS",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "DDoS": 1.0,
+        "Normal Traffic": 0.0,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 62.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 20.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 229.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.89,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 778.33,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 1934.5,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 2538.92,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "ACIMA do normal"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "classe_prevista_camada1": "Brute Force",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "Brute Force": 1.0,
+        "Normal Traffic": 0.0,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 22.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 2008.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 640.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 247.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 95.62,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 89.68,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 85.78,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 220.24,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.967,
+      "distribuicao_prob": {
+        "Port Scanning": 0.967,
+        "Normal Traffic": 0.033,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 264.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "classe_prevista_camada1": "Brute Force",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Brute Force": 0.999,
+        "Normal Traffic": 0.001,
+        "Web Attacks": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 21.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 106.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 26.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 227.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 11.78,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 12.25,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 12.53,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 14.55,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.526,
+      "distribuicao_prob": {
+        "Web Attacks": 0.526,
+        "Normal Traffic": 0.469,
+        "DoS": 0.004
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 443.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 2626.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 1050.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 8.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 291.78,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 292.19,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 292.71,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": 455.87,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.001,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.996,
+      "distribuicao_prob": {
+        "Web Attacks": 0.996,
+        "Normal Traffic": 0.003,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 28960.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "classe_prevista_camada1": "Web Attacks",
+      "confianca_camada1": 0.999,
+      "distribuicao_prob": {
+        "Web Attacks": 0.999,
+        "Normal Traffic": 0.0,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 26847.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": -0.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "ABAIXO do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 32.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": -0.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": -0.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.894,
+      "distribuicao_prob": {
+        "Bots": 0.894,
+        "Normal Traffic": 0.091,
+        "Port Scanning": 0.014
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 80.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 913.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 0.988,
+      "distribuicao_prob": {
+        "Port Scanning": 0.988,
+        "Normal Traffic": 0.012,
+        "Bots": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 1720.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 4.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 2.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 2.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 4.5,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 24.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "classe_prevista_camada1": "Port Scanning",
+      "confianca_camada1": 1.0,
+      "distribuicao_prob": {
+        "Port Scanning": 1.0,
+        "Normal Traffic": 0.0,
+        "DoS": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 1148.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 0.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": -0.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": -0.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 0.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 3.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 40.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "classe_prevista_camada1": "Bots",
+      "confianca_camada1": 0.908,
+      "distribuicao_prob": {
+        "Bots": 0.908,
+        "Normal Traffic": 0.092,
+        "Port Scanning": 0.0
+      },
+      "atributos": [
+        {
+          "atributo": "Destination Port",
+          "valor": 9943.0,
+          "normal_mediana": 80.0,
+          "normal_p10": 53.0,
+          "normal_p90": 51790.9,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Total Length of Fwd Packets",
+          "valor": 6.0,
+          "normal_mediana": 70.0,
+          "normal_p10": 0.0,
+          "normal_p90": 1257.2,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Max",
+          "valor": 6.0,
+          "normal_mediana": 41.0,
+          "normal_p10": -0.0,
+          "normal_p90": 559.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Init_Win_bytes_backward",
+          "valor": 16425.0,
+          "normal_mediana": -1.0,
+          "normal_p10": -1.0,
+          "normal_p90": 980.0,
+          "situacao": "ACIMA do normal"
+        },
+        {
+          "atributo": "Fwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 38.0,
+          "normal_p10": 0.0,
+          "normal_p90": 101.88,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Average Packet Size",
+          "valor": 9.0,
+          "normal_mediana": 76.5,
+          "normal_p10": 3.0,
+          "normal_p90": 335.49,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "min_seg_size_forward",
+          "valor": 20.0,
+          "normal_mediana": 20.0,
+          "normal_p10": 20.0,
+          "normal_p90": 32.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Min",
+          "valor": 6.0,
+          "normal_mediana": 6.0,
+          "normal_p10": -0.0,
+          "normal_p90": 138.0,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Mean",
+          "valor": 6.0,
+          "normal_mediana": 77.75,
+          "normal_p10": -0.0,
+          "normal_p90": 453.4,
+          "situacao": "dentro do normal"
+        },
+        {
+          "atributo": "Bwd Packet Length Std",
+          "valor": -0.0,
+          "normal_mediana": -0.0,
+          "normal_p10": -0.0,
+          "normal_p90": 637.22,
+          "situacao": "dentro do normal"
+        }
+      ]
+    }
+  ]
+}
