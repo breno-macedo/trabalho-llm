@@ -44,8 +44,8 @@ Web Attacks; 1.800 para Bots. Normalização com `StandardScaler`, split estrati
 - **Redução de falsos positivos** (gating de confiança na saída da LSTM):
   **33 → 28 falsos positivos (−15,2%)**, mantendo a acurácia praticamente inalterada
   (0,9832 → 0,9827), **sem re-treinamento**.
-## 3b. Camada LLM — a novidade (experimento medido)
-A segunda camada é a contribuição central: um LLM revisa os alertas **incertos** da 1ª
+## 3b. Camada LLM — projeto (experimento medido)
+A segunda camada é o cerne: um LLM revisa os alertas **incertos** da 1ª
 camada, recebendo só a descrição textual do fluxo (top-10 atributos SHAP + valor vs.
 faixa do tráfego legítimo + probabilidades do modelo), **sem o rótulo verdadeiro**, e
 decide *ataque real* ou *falso positivo* com justificativa.
