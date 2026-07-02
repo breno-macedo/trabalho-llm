@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Parte 2b: LSTM melhorado = Bi-LSTM + atencao sobre a sequencia de atributos.
-Treino com checkpoint/resume (janelas de tempo). Rode varias vezes ate concluir."""
+Treino com checkpoint/resume (janelas de tempo)."""
 import os, json, pickle, time, numpy as np
 os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"; os.environ["PYTHONHASHSEED"]="42"
 import random; random.seed(42); np.random.seed(42)
