@@ -2,7 +2,7 @@
 import os, json, numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-A="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"; G=A+"/figs"; os.makedirs(G, exist_ok=True)
+A=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"artifacts"); G=A+"/figs"; os.makedirs(G, exist_ok=True)
 plt.rcParams.update({"figure.dpi":130,"font.size":10})
 def J(f): return json.load(open(A+"/"+f))
 lstm=J("lstm_results.json"); rf=J("rf_results.json"); imp=J("improved_results.json")

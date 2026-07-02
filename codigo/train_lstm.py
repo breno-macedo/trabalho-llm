@@ -6,7 +6,7 @@ import tensorflow as tf; tf.random.set_seed(42)
 from sklearn.metrics import (classification_report, confusion_matrix,
     accuracy_score, precision_recall_fscore_support)
 
-A="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"
+A=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"artifacts"); os.makedirs(A,exist_ok=True)
 d=np.load(A+"/data.npz"); meta=pickle.load(open(A+"/meta.pkl","rb"))
 classes=meta["classes"]; F=d["X_tr"].shape[1]
 Xtr=d["X_tr"].reshape(-1,1,F); Xte=d["X_te"].reshape(-1,1,F)

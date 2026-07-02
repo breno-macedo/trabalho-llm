@@ -29,3 +29,10 @@ Apresentacao.pptx
 data.npz
 *.pkl
 *.npy
+
+# Diretórios gerados / dados de entrada
+artifacts/
+dados/
+
+# Documento removido do repositório (fica só localmente)
+Nota_Metodologica.docx

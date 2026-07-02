@@ -3,7 +3,8 @@ import json, numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mp
-A="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"; G=A+"/figs"
+import os
+A=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"artifacts"); G=A+"/figs"; os.makedirs(G, exist_ok=True)
 plt.rcParams.update({"figure.dpi":130,"font.size":10})
 r=json.load(open(A+"/llm_layer_results.json"))
 g=json.load(open(A+"/fp_gating.json"))

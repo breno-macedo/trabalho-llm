@@ -5,8 +5,9 @@ warnings.filterwarnings("ignore")
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-DATA = "/sessions/upbeat-gracious-mayer/mnt/uploads"
-OUT  = "/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.environ.get("DADOS_DIR", os.path.join(_ROOT, "dados"))   # CSVs do CIC-IDS2017
+OUT  = os.path.join(_ROOT, "artifacts")
 os.makedirs(OUT, exist_ok=True)
 SEED = 42
 np.random.seed(SEED)

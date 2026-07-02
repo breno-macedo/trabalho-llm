@@ -3,7 +3,7 @@
 Cada alerta vira uma descricao textual rica (valores reais vs. faixas do trafego
 normal). O rotulo verdadeiro fica em arquivo separado (so para a correcao)."""
 import numpy as np, pickle, json, os
-A="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"
+A=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"artifacts"); os.makedirs(A,exist_ok=True)
 d=np.load(A+"/data.npz"); meta=pickle.load(open(A+"/meta.pkl","rb"))
 classes=meta["classes"]; feat=meta["feature_cols"]
 mean=np.array(meta["scaler_mean"]); scale=np.array(meta["scaler_scale"])

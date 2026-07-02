@@ -9,11 +9,19 @@ Escreve resultados/llm_layer_results.json e imprime as metricas REAIS.
 import os, json
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RES  = os.path.join(HERE, "..", "resultados")
+ROOT = os.path.dirname(HERE)
+RES  = os.path.join(ROOT, "resultados")
+ART  = os.path.join(ROOT, "artifacts")
+def _find(name):
+    for base in (ART, RES):
+        p = os.path.join(base, name)
+        if os.path.exists(p):
+            return p
+    return os.path.join(RES, name)
 
-truth = json.load(open(os.path.join(RES, "review_truth.json"), encoding="utf-8"))
-verd  = json.load(open(os.path.join(RES, "llm_verdicts.json"), encoding="utf-8"))
-TOTAL_FP_LSTM = json.load(open(os.path.join(RES, "fp_gating.json")))["baseline"]["fp"]  # 33
+truth = json.load(open(_find("review_truth.json"), encoding="utf-8"))
+verd  = json.load(open(_find("llm_verdicts.json"), encoding="utf-8"))
+TOTAL_FP_LSTM = json.load(open(_find("fp_gating.json")))["baseline"]["fp"]  # 33
 
 n = len(truth)
 fp_real = sum(1 for v in truth.values() if v["is_fp"])

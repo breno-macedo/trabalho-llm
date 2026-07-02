@@ -4,7 +4,8 @@ import glob, os, json, time, pickle, numpy as np, pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 t0=time.time()
-CLEAN="/tmp/clean"; OUT="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"
+_ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CLEAN=os.path.join(_ROOT,"artifacts","clean"); OUT=os.path.join(_ROOT,"artifacts")
 os.makedirs(OUT, exist_ok=True); SEED=42; rng=np.random.RandomState(SEED)
 TARGETS={"Normal Traffic":3000,"Port Scanning":3000,"Web Attacks":2000,
  "Brute Force":3000,"DDoS":3000,"Bots":1800,"DoS":3000}

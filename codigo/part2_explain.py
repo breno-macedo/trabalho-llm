@@ -3,7 +3,7 @@
    + camada textual (interface p/ LLM)."""
 import os, json, pickle, numpy as np
 os.environ["TF_CPP_MIN_LOG_LEVEL"]="3"
-A="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"
+A=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"artifacts"); os.makedirs(A,exist_ok=True)
 d=np.load(A+"/data.npz"); meta=pickle.load(open(A+"/meta.pkl","rb"))
 classes=meta["classes"]; feat=meta["feature_cols"]
 Xtr,Xte,ytr,yte=d["X_tr"],d["X_te"],d["y_tr"],d["y_te"]

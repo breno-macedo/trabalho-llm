@@ -18,6 +18,8 @@ Código e resultados do trabalho de detecção de tráfego malicioso em redes in
 ## Estrutura
 
 ```
+dados/                  CSVs do CIC-IDS2017 (baixar do Kaggle; não versionado)
+artifacts/              arquivos gerados: data.npz, meta.pkl, *.npy, figuras (não versionado)
 codigo/                 scripts Python (pipeline completo)
   preprocess.py           limpeza e pré-processamento
   clean_file.py           utilitário de limpeza
@@ -77,10 +79,15 @@ e a distribuição de probabilidade) a um modelo **Claude**, com temperatura 0. 
 nunca entra no prompt**: fica em `resultados/review_truth.json` e é usado apenas na correção por
 `score_llm_layer.py`.
 
-## Nota sobre caminhos
+## Reprodutibilidade
 
-Alguns scripts (`preprocess.py`, `gen_review_set.py`, `part2_explain.py`, `train_*.py`,
-`make_figures*.py`) contêm caminhos absolutos de uma sessão de desenvolvimento anterior
-(`/sessions/.../artifacts`). Para reproduzir do zero, ajuste esses caminhos para a sua máquina.
-Os scripts `camada_llm_real.py` e `score_llm_layer.py` já usam caminhos relativos à pasta
-`resultados/`.
+Todos os scripts usam caminhos **relativos ao repositório** — não é preciso editar nada:
+
+- Coloque os CSVs do CIC-IDS2017 em `dados/` (ou aponte a variável de ambiente `DADOS_DIR`).
+- Arquivos intermediários (`data.npz`, `meta.pkl`, `*.npy`, figuras) são gravados em `artifacts/`.
+- Resultados em JSON ficam em `resultados/` (já versionados como snapshot do trabalho).
+
+Os scripts `camada_llm_real.py` e `score_llm_layer.py` procuram os arquivos primeiro em
+`artifacts/` (execução completa do pipeline) e caem para o snapshot em `resultados/`. Assim
+dá para rodar **apenas a etapa do LLM** sobre os dados já versionados, sem refazer todo o
+pipeline.

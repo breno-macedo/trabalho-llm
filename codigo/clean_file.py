@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Limpa um ou mais CSVs e salva parquet em /tmp/clean/ (cache local rapido)."""
+"""Limpa um ou mais CSVs e salva em artifacts/clean/ (cache local)."""
 import sys, os, glob, numpy as np, pandas as pd
-DATA="/sessions/upbeat-gracious-mayer/mnt/uploads"
-OUTD="/tmp/clean"; os.makedirs(OUTD, exist_ok=True)
+_ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA=os.environ.get("DADOS_DIR", os.path.join(_ROOT,"dados"))
+OUTD=os.path.join(_ROOT,"artifacts","clean"); os.makedirs(OUTD, exist_ok=True)
 LABEL_MAP={"BENIGN":"Normal Traffic","DoS Hulk":"DoS","DoS GoldenEye":"DoS",
  "DoS slowloris":"DoS","DoS Slowhttptest":"DoS","DDoS":"DDoS","PortScan":"Port Scanning",
  "FTP-Patator":"Brute Force","SSH-Patator":"Brute Force","Bot":"Bots"}

@@ -24,8 +24,17 @@ import os, re, json, time, sys
 
 # ----- caminhos relativos a este arquivo -----
 HERE = os.path.dirname(os.path.abspath(__file__))
-RES  = os.path.join(HERE, "..", "resultados")
-EVENTS_IN  = os.path.join(RES, "review_events.json")
+ROOT = os.path.dirname(HERE)
+RES  = os.path.join(ROOT, "resultados")
+ART  = os.path.join(ROOT, "artifacts")
+def _find(name):
+    # procura em artifacts/ (run completo) e cai para resultados/ (snapshot commitado)
+    for base in (ART, RES):
+        p = os.path.join(base, name)
+        if os.path.exists(p):
+            return p
+    return os.path.join(RES, name)
+EVENTS_IN  = _find("review_events.json")
 VERDICTS_OUT = os.path.join(RES, "llm_verdicts.json")
 
 # ----- configuracao do modelo -----

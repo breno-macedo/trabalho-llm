@@ -7,7 +7,7 @@ import random; random.seed(42); np.random.seed(42)
 import tensorflow as tf; tf.random.set_seed(42)
 from tensorflow.keras import layers
 import keras
-A="/sessions/upbeat-gracious-mayer/mnt/outputs/artifacts"
+A=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"artifacts"); os.makedirs(A,exist_ok=True)
 TARGET=30; BUDGET=34.0
 
 @keras.saving.register_keras_serializable()
