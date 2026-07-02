@@ -4,7 +4,7 @@ Código e resultados do trabalho de detecção de tráfego malicioso em redes in
 **CIC-IDS2017**, com uma arquitetura em duas camadas:
 
 1. **Primeira camada** — classificação do tráfego com **LSTM** e **Random Forest** (linha de base).
-2. **Segunda camada (contribuição)** — um **LLM (Claude)** faz a triagem dos alertas incertos,
+2. **Segunda camada** — um **LLM (Claude)** faz a triagem dos alertas incertos,
    decidindo se são ataque real ou falso positivo e produzindo justificativas em linguagem natural,
    reduzindo os falsos positivos da primeira camada.
 
@@ -43,7 +43,7 @@ camada_llm.py           versão inicial da 2ª camada (mock + exemplo de API)
 CIC-IDS2017 — *Network Intrusion Dataset* (Kaggle):
 https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset
 
-O dataset **não** está versionado aqui (é grande e público); baixe-o do link acima.
+O dataset **não** está versionado aqui.
 
 ## Dependências
 
@@ -52,7 +52,7 @@ pip install pandas numpy scikit-learn tensorflow shap
 pip install anthropic        # para a 2ª camada com Claude (ou: pip install openai)
 ```
 
-## Como executar (visão geral)
+## Como executar
 
 ```bash
 # 1) pré-processamento
@@ -75,15 +75,15 @@ python codigo/score_llm_layer.py
 
 `camada_llm_real.py` envia cada alerta (descrito em texto: atributos SHAP com o valor real
 comparado à faixa do tráfego legítimo — percentis 10–90 da classe *Normal* —, a classe prevista
-e a distribuição de probabilidade) a um modelo **Claude**, com temperatura 0. O **rótulo verdadeiro
+e a distribuição de probabilidade) a um modelo **Claude**. O **rótulo verdadeiro
 nunca entra no prompt**: fica em `resultados/review_truth.json` e é usado apenas na correção por
 `score_llm_layer.py`.
 
 ## Reprodutibilidade
 
-Todos os scripts usam caminhos **relativos ao repositório** — não é preciso editar nada:
+Todos os scripts usam caminhos **relativos ao repositório**:
 
-- Coloque os CSVs do CIC-IDS2017 em `dados/` (ou aponte a variável de ambiente `DADOS_DIR`).
+- Colocar os CSVs do CIC-IDS2017 em `dados/` (ou aponte a variável de ambiente `DADOS_DIR`).
 - Arquivos intermediários (`data.npz`, `meta.pkl`, `*.npy`, figuras) são gravados em `artifacts/`.
 - Resultados em JSON ficam em `resultados/` (já versionados como snapshot do trabalho).
 
