@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-2a CAMADA — TRIAGEM POR LLM REAL (substitui a heuristica mock).
+2a CAMADA — TRIAGEM POR LLM REAL.
 
 Le os 63 alertas ja descritos em texto (resultados/review_events.json), envia
 cada um a uma LLM REAL (Claude, via API da Anthropic) atuando como analista de
@@ -13,10 +13,10 @@ correcao). Isso garante avaliacao honesta.
 COMO RODAR
 ----------
     pip install anthropic
-    export ANTHROPIC_API_KEY=sk-ant-...        # sua chave
+    export ANTHROPIC_API_KEY=sk-ant-...        
     python codigo/camada_llm_real.py
 
-Depois rode:  python codigo/score_llm_layer.py   (recalcula as metricas reais)
+Depois rodar:  python codigo/score_llm_layer.py   (recalcula as metricas reais)
 
 Para usar OpenAI em vez de Claude, defina PROVIDER=openai e OPENAI_API_KEY.
 """
