@@ -34,8 +34,7 @@ codigo/                 scripts Python (pipeline completo)
   make_figures_llm.py     figuras da 2ª camada
   aggregate.py            consolidação de resultados
 resultados/             saídas em JSON + conjunto de revisão (review_events / review_truth)
-pipeline_deteccao.py    pipeline da 1ª camada (entrada da 2ª camada)
-camada_llm.py           versão inicial da 2ª camada (mock + exemplo de API)
+
 ```
 
 ## Conjunto de dados
